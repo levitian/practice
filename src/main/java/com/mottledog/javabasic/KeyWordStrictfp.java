@@ -14,7 +14,7 @@ package com.mottledog.javabasic;
  * @author levitian
  *
  */
-public strictfp class KeyWordStrictfpTest {
+public strictfp class KeyWordStrictfp {
 
 	public static void main(String[] args){
 		float aFloat = 0.6710339f;
@@ -42,12 +42,12 @@ public strictfp class KeyWordStrictfpTest {
 	}
 }
 
-class KeyWordStrictfpTest2 {
+class KeyWordStrictfp2 {
 	public float aFloat;
 
 	public double aDouble;
 
-	public KeyWordStrictfpTest2() {
+	public KeyWordStrictfp2() {
 	}
 
 	public strictfp double add(float a, double b){
@@ -56,7 +56,7 @@ class KeyWordStrictfpTest2 {
 
 	public static void main(String[] args){
 
-		KeyWordStrictfpTest2 myClass2 = new KeyWordStrictfpTest2();
+		KeyWordStrictfp2 myClass2 = new KeyWordStrictfp2();
 
 		myClass2.aFloat = 0.6710339f;
 
