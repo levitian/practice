@@ -1,4 +1,4 @@
-package com.mottledog.javabasic;
+package com.mottledog.javabasic.keyword;
 
 
 /**
@@ -6,7 +6,7 @@ package com.mottledog.javabasic;
  * 
  * stricttp关键字可引用于类、接口或方法。使用strictfp关键字声明一个方法时，该方法中所有float和double表达式都严格
  * 遵守FP-strict的限制，符合IEEE-754规范。当对一个类或接口使用strictfp关键字时，该类中的所有代码，包括嵌套类型中
- * 的初始设定值和代码，都严格地进行计算。严格越俗意味着所有表达式的结果都必须是IEEE754算法对操作数预期的结果，以单
+ * 的初始设定值和代码，都严格地进行计算。严格约束意味着所有表达式的结果都必须是IEEE754算法对操作数预期的结果，以单
  * 精度和双精度格式表示。
  * 
  * 如果想让浮点运算更加精确，而且不会因为不同的硬件平淡所执行的结果不一致的话，可以用关键字strictfp。
@@ -14,7 +14,7 @@ package com.mottledog.javabasic;
  * @author levitian
  *
  */
-public strictfp class KeyWordStrictfp {
+public strictfp class StrictfpPractice {
 
 	public static void main(String[] args){
 		float aFloat = 0.6710339f;
