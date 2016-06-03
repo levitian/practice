@@ -6,7 +6,7 @@ package com.mottledog.javabasic.reflect;
  * @author tianl
  *
  */
-public class ClassNameAndObject {
+class ClassNameAndObject {
 	public static void main(String args[]){
 		//实例化class类对象
 		Class<?> demo1 = null;

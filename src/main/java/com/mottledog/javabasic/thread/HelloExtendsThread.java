@@ -2,6 +2,8 @@ package com.mottledog.javabasic.thread;
 
 /**
  * java多线程总结 http://www.cnblogs.com/rollenholt/archive/2011/08/28/2156357.html
+ * 
+ * 继承Thread的线程类
  * @author levitian
  *
  */
