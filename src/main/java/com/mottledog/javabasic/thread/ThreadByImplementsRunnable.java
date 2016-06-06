@@ -18,10 +18,11 @@ public class ThreadByImplementsRunnable implements Runnable {
 		ThreadByImplementsRunnable t1 = new ThreadByImplementsRunnable();
 		//t1.run(); 直接调用run方法，则是由main线程进行了调用
 		
-		Thread t = new Thread(t1,"number 1");
+	/*	Thread t = new Thread(t1,"number 1");
 		System.out.println("before thread t start:" + t.isAlive());
 		t.start();
-		System.out.println("end thread t start:" + t.isAlive());
+		System.out.println("end thread t start:" + t.isAlive());*/
+		new Thread(t1,"number 1").start();
 		new Thread(t1,"number 2").start();
 		new Thread(t1,"number 3").start();
 		
