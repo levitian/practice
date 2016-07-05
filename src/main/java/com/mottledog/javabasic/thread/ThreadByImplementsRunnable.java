@@ -4,6 +4,7 @@ public class ThreadByImplementsRunnable implements Runnable {
 	
 	private int count = 10;
 	
+	
 	@Override
 	public void run() {
 		for(int i=0; i<10; i++){
